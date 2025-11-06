@@ -477,63 +477,63 @@ files = [
 
 [[package]]
 name = "cirq"
-version = "1.6.1"
+version = "1.5.0"
 description = "A framework for creating, editing, and invoking Noisy Intermediate Scale Quantum (NISQ) circuits."
 optional = true
-python-versions = ">=3.11.0"
+python-versions = ">=3.10.0"
 groups = ["main"]
 markers = "extra == \"two-qubit-rb\" and python_version >= \"3.11\""
 files = [
-    {file = "cirq-1.6.1-py3-none-any.whl", hash = "sha256:e448e21fa6951df7ebd78743a972f08e19d5663e36618ce91af80ed3799abeec"},
+    {file = "cirq-1.5.0-py3-none-any.whl", hash = "sha256:c710e5be35087a6d2457dcb1ecb93a0a492a98bb3b27e8a14b8a3a9ad14dca3c"},
 ]
 
 [package.dependencies]
-cirq-aqt = "1.6.1"
-cirq-core = "1.6.1"
-cirq-google = "1.6.1"
-cirq-ionq = "1.6.1"
-cirq-pasqal = "1.6.1"
-cirq-web = "1.6.1"
+cirq-aqt = "1.5.0"
+cirq-core = "1.5.0"
+cirq-google = "1.5.0"
+cirq-ionq = "1.5.0"
+cirq-pasqal = "1.5.0"
+cirq-web = "1.5.0"
 
 [package.extras]
-dev-env = ["asv", "black[jupyter] (==25.1.0)", "codeowners ; platform_system != \"Windows\"", "coverage (>=7.4,<8.0)", "filelock (>=3.1,<4.0)", "freezegun", "grpcio-tools (>=1.71.2,<1.72.0)", "importlib-metadata", "ipykernel (>=6.29,<7.0)", "ipython (>=8.15)", "isort[colors] (>=6.0.1,<6.1.0)", "mypy (==1.16.1)", "mypy-protobuf (>=3.6,<4.0)", "notebook (>=7.0,<8.0)", "opt_einsum", "papermill (>=2.6,<3.0)", "ply (>=3.6)", "pylatex (>=1.4,<2.0)", "pylint (>=3.3.1,<3.4.0)", "pytest", "pytest-asyncio", "pytest-cov", "pytest-randomly", "pytest-xdist", "qiskit-aer (>=0.17.0,<0.18.0)", "quimb (>=1.8)", "ruff (>=0.12.1,<0.13.0)", "seaborn (>=0.12,<1.0)", "setuptools (>=70)", "stimcirq", "tensorflow-docs (==2025.2.19.33219)", "twine", "typedunits", "types-protobuf (>=5.26.1,<6.0dev)", "types-requests (>=2.32,<3.0)", "virtualenv", "virtualenv (>=20.23,<21.0)", "virtualenv-clone", "wheel"]
+dev-env = ["asv", "black (==25.1.0)", "codeowners ; platform_system != \"Windows\"", "coverage (>=7.4,<8.0)", "filelock (>=3.1,<4.0)", "freezegun", "grpcio-tools (>=1.62.3,<1.63.0)", "importlib-metadata", "ipykernel (>=6.29,<7.0)", "ipython (>=8.10,<9.0)", "isort[colors] (>=6.0.1,<6.1.0)", "mypy (==1.15.0)", "mypy-protobuf (>=3.6,<4.0)", "notebook (>=7.0,<8.0)", "opt_einsum", "papermill (>=2.6,<3.0)", "ply (>=3.6)", "pylatex (>=1.4,<2.0)", "pylint (>=3.3.1,<3.4.0)", "pytest", "pytest-asyncio", "pytest-cov", "pytest-randomly", "pytest-xdist", "qiskit-aer (>=0.17.0,<0.18.0)", "quimb (>=1.8)", "seaborn (>=0.12,<1.0)", "setuptools (>=70,<77)", "stimcirq", "tensorflow-docs (==2025.2.19.33219)", "twine", "typedunits", "types-protobuf (>=4.24)", "types-requests (>=2.32.0.20241016,<2.33.0.0)", "virtualenv", "virtualenv (>=20.23,<21.0)", "virtualenv-clone", "wheel"]
 
 [[package]]
 name = "cirq-aqt"
-version = "1.6.1"
+version = "1.5.0"
 description = "A Cirq package to simulate and connect to Alpine Quantum Technologies quantum computers"
 optional = true
-python-versions = ">=3.11.0"
+python-versions = ">=3.10.0"
 groups = ["main"]
 markers = "extra == \"two-qubit-rb\" and python_version >= \"3.11\""
 files = [
-    {file = "cirq_aqt-1.6.1-py3-none-any.whl", hash = "sha256:f8d90b794500f4f214885425cae0a30569a65f967d92c9fdc8cdce48591f8cd6"},
+    {file = "cirq_aqt-1.5.0-py3-none-any.whl", hash = "sha256:c3bcb4251cff03e344cd6dc4744afe9bd1dfd84da5d9fde9413adfedf8c3cc36"},
 ]
 
 [package.dependencies]
-cirq-core = "1.6.1"
+cirq-core = "1.5.0"
 requests = ">=2.32,<3.0"
 
 [[package]]
 name = "cirq-core"
-version = "1.6.1"
+version = "1.5.0"
 description = "A framework for creating, editing, and invoking Noisy Intermediate Scale Quantum (NISQ) circuits."
 optional = true
-python-versions = ">=3.11.0"
+python-versions = ">=3.10.0"
 groups = ["main"]
 markers = "extra == \"two-qubit-rb\" and python_version >= \"3.11\""
 files = [
-    {file = "cirq_core-1.6.1-py3-none-any.whl", hash = "sha256:fbc809d7c6a228762ad92bb7870dc16f55b76728fcc7ef4c7aaceb7e5c63e8e6"},
+    {file = "cirq_core-1.5.0-py3-none-any.whl", hash = "sha256:104a574c766011c979e897f0fb5e90eb69a2b58ec1dc389a73495e63124923d0"},
 ]
 
 [package.dependencies]
 attrs = ">=21.3.0"
 duet = ">=0.2.8"
-matplotlib = ">=3.8,<4.0"
-networkx = ">=3.4,<4.0"
-numpy = ">=1.26"
-pandas = ">=2.1,<3.0"
-scipy = ">=1.12,<2.0"
+matplotlib = ">=3.7,<4.0"
+networkx = ">=3.1,<4.0"
+numpy = ">=1.25"
+pandas = ">=2.0,<3.0"
+scipy = ">=1.11,<2.0"
 sortedcontainers = ">=2.0,<3.0"
 sympy = "*"
 tqdm = ">=4.12"
@@ -544,69 +544,69 @@ contrib = ["opt_einsum", "ply (>=3.6)", "pylatex (>=1.4,<2.0)", "quimb (>=1.8)"]
 
 [[package]]
 name = "cirq-google"
-version = "1.6.1"
+version = "1.5.0"
 description = "The Cirq module that provides tools and access to the Google Quantum Computing Service"
 optional = true
-python-versions = ">=3.11.0"
+python-versions = ">=3.10.0"
 groups = ["main"]
 markers = "extra == \"two-qubit-rb\" and python_version >= \"3.11\""
 files = [
-    {file = "cirq_google-1.6.1-py3-none-any.whl", hash = "sha256:aa87ca915a9d1eb48b505513f15fb2acf42fa136e4c1a6c2a144e232828e8b19"},
+    {file = "cirq_google-1.5.0-py3-none-any.whl", hash = "sha256:e8092a248a62fe130e14bc47830d63a6d26f4e586f9572de70dfd82c1cde70a5"},
 ]
 
 [package.dependencies]
-cirq-core = "1.6.1"
-google-api-core = {version = ">=2.22,<3.0", extras = ["grpc"]}
-proto-plus = ">=1.25,<2.0"
-protobuf = ">=5.26.1,<6.0dev"
+cirq-core = "1.5.0"
+google-api-core = {version = ">=1.14.0", extras = ["grpc"]}
+proto-plus = ">=1.20.0"
+protobuf = ">=4.25,<6.0"
 typedunits = "*"
 
 [[package]]
 name = "cirq-ionq"
-version = "1.6.1"
+version = "1.5.0"
 description = "A Cirq package to simulate and connect to IonQ quantum computers"
 optional = true
-python-versions = ">=3.11.0"
+python-versions = ">=3.10.0"
 groups = ["main"]
 markers = "extra == \"two-qubit-rb\" and python_version >= \"3.11\""
 files = [
-    {file = "cirq_ionq-1.6.1-py3-none-any.whl", hash = "sha256:f147e7176bcfae51802772b6b659b2b9f0ffe3e8de4ce41e36956ae1a6979ad9"},
+    {file = "cirq_ionq-1.5.0-py3-none-any.whl", hash = "sha256:00316ca8baf76fca1bd9ac7b48589858fbfadf3a8e5be22fa102e4714beec21a"},
 ]
 
 [package.dependencies]
-cirq-core = "1.6.1"
+cirq-core = "1.5.0"
 requests = ">=2.32,<3.0"
 
 [[package]]
 name = "cirq-pasqal"
-version = "1.6.1"
+version = "1.5.0"
 description = "A Cirq package to simulate and connect to Pasqal quantum computers"
 optional = true
-python-versions = ">=3.11.0"
+python-versions = ">=3.10.0"
 groups = ["main"]
 markers = "extra == \"two-qubit-rb\" and python_version >= \"3.11\""
 files = [
-    {file = "cirq_pasqal-1.6.1-py3-none-any.whl", hash = "sha256:4dd32f7f2422cf0d83b0a25ef73f91d6bc6886c5b54913b112d0a6bacbbac392"},
+    {file = "cirq_pasqal-1.5.0-py3-none-any.whl", hash = "sha256:cce81c59688612b07a01a1490b3a358a644a4e7c6cd23ce81255bf439800db06"},
 ]
 
 [package.dependencies]
-cirq-core = "1.6.1"
+cirq-core = "1.5.0"
 requests = ">=2.32,<3.0"
 
 [[package]]
 name = "cirq-web"
-version = "1.6.1"
+version = "1.5.0"
 description = "Web-based 3D visualization tools for Cirq."
 optional = true
-python-versions = ">=3.11.0"
+python-versions = ">=3.10.0"
 groups = ["main"]
 markers = "extra == \"two-qubit-rb\" and python_version >= \"3.11\""
 files = [
-    {file = "cirq_web-1.6.1-py3-none-any.whl", hash = "sha256:670164e6baa6b355e322b7f52e20ad07a05158520fb7d5d0bd6650a7efcf6871"},
+    {file = "cirq_web-1.5.0-py3-none-any.whl", hash = "sha256:47b931a8c8dbebde4775c6e82dc404c178b7592a24456e485e43ae823660984e"},
 ]
 
 [package.dependencies]
-cirq-core = "1.6.1"
+cirq-core = "1.5.0"
 
 [[package]]
 name = "cleo"
@@ -3267,34 +3267,11 @@ testing = ["google-api-core (>=1.31.5)"]
 
 [[package]]
 name = "protobuf"
-version = "4.25.6"
-description = ""
-optional = false
-python-versions = ">=3.8"
-groups = ["main"]
-markers = "python_version < \"3.11\""
-files = [
-    {file = "protobuf-4.25.6-cp310-abi3-win32.whl", hash = "sha256:61df6b5786e2b49fc0055f636c1e8f0aff263808bb724b95b164685ac1bcc13a"},
-    {file = "protobuf-4.25.6-cp310-abi3-win_amd64.whl", hash = "sha256:b8f837bfb77513fe0e2f263250f423217a173b6d85135be4d81e96a4653bcd3c"},
-    {file = "protobuf-4.25.6-cp37-abi3-macosx_10_9_universal2.whl", hash = "sha256:6d4381f2417606d7e01750e2729fe6fbcda3f9883aa0c32b51d23012bded6c91"},
-    {file = "protobuf-4.25.6-cp37-abi3-manylinux2014_aarch64.whl", hash = "sha256:5dd800da412ba7f6f26d2c08868a5023ce624e1fdb28bccca2dc957191e81fb5"},
-    {file = "protobuf-4.25.6-cp37-abi3-manylinux2014_x86_64.whl", hash = "sha256:4434ff8bb5576f9e0c78f47c41cdf3a152c0b44de475784cd3fd170aef16205a"},
-    {file = "protobuf-4.25.6-cp38-cp38-win32.whl", hash = "sha256:8bad0f9e8f83c1fbfcc34e573352b17dfce7d0519512df8519994168dc015d7d"},
-    {file = "protobuf-4.25.6-cp38-cp38-win_amd64.whl", hash = "sha256:b6905b68cde3b8243a198268bb46fbec42b3455c88b6b02fb2529d2c306d18fc"},
-    {file = "protobuf-4.25.6-cp39-cp39-win32.whl", hash = "sha256:3f3b0b39db04b509859361ac9bca65a265fe9342e6b9406eda58029f5b1d10b2"},
-    {file = "protobuf-4.25.6-cp39-cp39-win_amd64.whl", hash = "sha256:6ef2045f89d4ad8d95fd43cd84621487832a61d15b49500e4c1350e8a0ef96be"},
-    {file = "protobuf-4.25.6-py3-none-any.whl", hash = "sha256:07972021c8e30b870cfc0863409d033af940213e0e7f64e27fe017b929d2c9f7"},
-    {file = "protobuf-4.25.6.tar.gz", hash = "sha256:f8cfbae7c5afd0d0eaccbe73267339bff605a2315860bb1ba08eb66670a9a91f"},
-]
-
-[[package]]
-name = "protobuf"
 version = "5.29.5"
 description = ""
 optional = false
 python-versions = ">=3.8"
 groups = ["main"]
-markers = "python_version >= \"3.11\""
 files = [
     {file = "protobuf-5.29.5-cp310-abi3-win32.whl", hash = "sha256:3f1c6468a2cfd102ff4703976138844f78ebd1fb45f49011afc5139e9e283079"},
     {file = "protobuf-5.29.5-cp310-abi3-win_amd64.whl", hash = "sha256:3f76e3a3675b4a4d867b52e4a5f5b78a2ef9565549d4037e06cf7b0942b1d3fc"},
@@ -4362,29 +4339,16 @@ pyparsing = "*"
 
 [[package]]
 name = "typing-extensions"
-version = "4.12.2"
-description = "Backported and Experimental Type Hints for Python 3.8+"
-optional = false
-python-versions = ">=3.8"
-groups = ["main"]
-markers = "python_version >= \"3.11\""
-files = [
-    {file = "typing_extensions-4.12.2-py3-none-any.whl", hash = "sha256:04e5ca0351e0f3f85c6853954072df659d0d13fac324d0072316b67d7794700d"},
-    {file = "typing_extensions-4.12.2.tar.gz", hash = "sha256:1a7ead55c7e559dd4dee8856e3a88b41225abfe1ce8df57b7c13915fe121ffb8"},
-]
-
-[[package]]
-name = "typing-extensions"
 version = "4.15.0"
 description = "Backported and Experimental Type Hints for Python 3.9+"
 optional = false
 python-versions = ">=3.9"
 groups = ["main", "dev"]
-markers = "python_version < \"3.11\""
 files = [
     {file = "typing_extensions-4.15.0-py3-none-any.whl", hash = "sha256:f0fa19c6845758ab08074a0cfa8b7aecb71c999ca73d62883bc25cc018c4e548"},
     {file = "typing_extensions-4.15.0.tar.gz", hash = "sha256:0cea48d173cc12fa28ecabc3b837ea3cf6f38c6d1136f85cbaaf598984861466"},
 ]
+markers = {dev = "python_version < \"3.11\""}
 
 [[package]]
 name = "tzdata"
@@ -4610,4 +4574,4 @@ two-qubit-rb = ["cirq", "tqdm", "xarray"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.9, <3.13"
-content-hash = "0dfbb11b65ade04ed91da76663813eeaf971581f7eed41714a75615a4899247e"
+content-hash = "20975e23c56cd192670436656025e90822a9586d6fc1e1f8f5f63560a99b86c4"
